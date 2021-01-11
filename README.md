@@ -4,6 +4,12 @@ Chisel3 Simple Project
 This project is based on Chisel Project Template
 [chisel-template](https://github.com/freechipsproject/chisel-template)
 
+# Build
+```sh
+sbt test
+sbt run
+```
+
 # Links
 - [chisel3](https://github.com/chipsalliance/chisel3)
 - [chisel-template](https://github.com/freechipsproject/chisel-template)
