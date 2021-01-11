@@ -22,7 +22,7 @@ class mainTester extends AnyFlatSpec with ChiselScalatestTester with Matchers {
             c.io.A.poke(0.U)
             c.io.B.poke(1.U)
             c.clock.step()
-            c.io.C.expect(1.U)
+            c.io.C.expect(0.U)
 
             c.io.A.poke(1.U)
             c.io.B.poke(1.U)
